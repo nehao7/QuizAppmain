@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/quiz_graph.xml"
+    app:startDestination="@id/quizSelectionFragment">
+
+    <fragment
+        android:id="@+id/playWordPuzzleFragment"
+        android:name="com.daniel.quizbibz.fragments.word_puzzle.PlayWordPuzzleFragment"
+        android:label="fragment_quizord_second"
+        tools:layout="@layout/fragment_play_word_puzzle" />
+    <fragment
+        android:id="@+id/playQuizFragment"
+        android:name="com.daniel.quizbibz.fragments.quiz.PlayQuizFragment"
+        android:label="fragment_quizord_third"
+        tools:layout="@layout/fragment_play_quiz" />
+    <fragment
+        android:id="@+id/allQuizFragment"
+        android:name="com.daniel.quizbibz.fragments.quiz.AllQuizFragment"
+        android:label="fragment_quiz_recycler_list"
+        tools:layout="@layout/fragment_quiz_recycler_list" />
+    <fragment
+        android:id="@+id/allWordPuzzleFragment"
+        android:name="com.daniel.quizbibz.fragments.word_puzzle.AllWordPuzzleFragment"
+        android:label="fragment_word_list"
+        tools:layout="@layout/fragment_word_list" />
+    <fragment
+        android:id="@+id/quizSelectionFragment"
+        android:name="com.daniel.quizbibz.fragments.QuizSelectionFragment"
+        android:label="fragment_quiz_selection"
+        tools:layout="@layout/fragment_quiz_selection" />
+    <fragment
+        android:id="@+id/quizDifficultyLevelFragment"
+        android:name="com.daniel.quizbibz.fragments.quiz.QuizDifficultyLevelFragment"
+        android:label="fragment_quiz_difficulty_level"
+        tools:layout="@layout/fragment_quiz_difficulty_level" />
+    <fragment
+        android:id="@+id/wordPuzzleDifficultyLevelFragment"
+        android:name="com.daniel.quizbibz.fragments.word_puzzle.WordPuzzleDifficultyLevelFragment"
+        android:label="WordPuzzleDifficultyLevelFragment"
+        tools:layout="@layout/fragment_word_puzzle_difficulty_level" />
+</navigation>

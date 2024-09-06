@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/linear_layout_shape"
+    android:gravity="center">
+
+
+
+    <TextView
+        android:id="@+id/tvCorrect"
+        style="@style/primary20Bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="@string/missed_question" />
+
+    <Button
+        android:id="@+id/btnNext"
+        style="@style/white16Regular"
+        android:layout_width="wrap_content"
+        android:backgroundTint="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:text="@string/next_question" />
+
+</LinearLayout>

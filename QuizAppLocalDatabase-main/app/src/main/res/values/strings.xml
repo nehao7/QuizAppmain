@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">QuizBibz</string>
+    <string name="Quiz">Quiz</string>
+    <string name="MEDIUM">Medium</string>
+    <string name="HARD">Hard</string>
+    <string name="Easy">Easy</string>
+    <string name="Word">Word</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="update">Update</string>
+    <string name="delete">DELETE</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="total_Score">Your Total Score</string>
+    <string name="ten">0</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="add_new_question">Add New Question</string>
+    <string name="add_question_dialog_title">Do you want to add question to Quiz or Word game?</string>
+    <string name="question_number">Question Number: %d</string>
+    <string name="word_number">Word Number: %d</string>
+    <string name="add_new_word">Add New Word</string>
+    <string name="update_question">Update Question</string>
+    <string name="update_word">Update Word</string>
+    <string name="enter_word">Enter Word</string>
+    <string name="type">Type</string>
+    <string name="submit">Submit</string>
+    <string name="choose_difficulty_level">Choose Difficulty Level</string>
+    <string name="add_question">Add Question</string>
+    <string name="questions">Question</string>
+    <string name="option_a">Option A</string>
+    <string name="option_b">Option B</string>
+    <string name="option_c">Option C</string>
+    <string name="option_d">Option D</string>
+    <string name="correct_option">Correct Option</string>
+    <string name="options">Options</string>
+    <string name="correct_answer">Correct Answer: %s</string>
+    <string name="correct_answer_dialog">Correct Answer</string>
+    <string name="a">A. %s</string>
+    <string name="b">B. %s</string>
+    <string name="c">C. %s</string>
+    <string name="d">D. %s</string>
+    <string name="your_word_is">Your Word Is</string>
+    <string name="your_answer">Your Answer</string>
+    <string name="next">Next</string>
+    <string name="no_word_available">No Words Available</string>
+    <string name="word_count">%d / %d</string>
+    <string name="choose_your_option">Choose Your Option</string>
+    <string name="splash_image">Splash Image</string>
+    <string name="hi_there">Hi There!</string>
+    <string name="welcome_to_quizord">Welcome To Trivia Quiz</string>
+    <string name="what_do_you_want_to_play">What do you want to play?</string>
+    <string name="quiz">Quiz</string>
+    <string name="word_puzzle">Word Puzzle</string>
+    <string name="choose_your_level">Choose Your Level</string>
+    <string name="add_questions">Add Questions</string>
+    <string name="you_selected">You Selected</string>
+    <string name="add_words">Add Words</string>
+    <string name="quiz_list">Quiz List</string>
+    <string name="word_puzzle_list">Word Puzzle List</string>
+    <string name="next_question">Next Question</string>
+    <string name="wrong_answer">Wrong Answer</string>
+    <string name="all_quiz">Quiz</string>
+    <string name="all_word_puzzle">Word Puzzle</string>
+    <string name="select_time_for_this_question">Select time for this question</string>
+    <string name="zero_timer">00:00</string>
+    <string name="missed_question">You missed the question</string>
+    <string name="ok">OK</string>
+    <string name="attempted">Attempted</string>
+    <string name="total">Total</string>
+    <string name="sorry">Sorry</string>
+    <string name="try_later">Try Later</string>
+    <string name="privacy_policies">Privacy Policies</string>
+
+
+    <string-array name="difficulty_levels">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+
+</resources>

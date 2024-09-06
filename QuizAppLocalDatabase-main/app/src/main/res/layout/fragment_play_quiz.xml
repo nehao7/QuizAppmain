@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="currentQuizData"
+            type="com.daniel.quizbibz.models.QuizDataClass" />
+
+    </data>
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:fillViewport="true">
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="@dimen/dp_180">
+
+                   <View
+                       android:id="@+id/half_circle"
+                       android:layout_width="match_parent"
+                       android:layout_height="@dimen/dp_300"
+                        />
+
+
+
+
+
+                   <LinearLayout
+                       android:id="@+id/llCounter"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+
+                       android:gravity="center">
+
+                       <LinearLayout
+                           android:layout_width="@dimen/dp_100"
+                           android:layout_height="wrap_content"
+                           android:background="@drawable/linear_layout_shape"
+                           android:orientation="vertical">
+
+                           <TextView
+                               style="@style/primary14Normal"
+                               android:layout_width="@dimen/dp_100"
+                               android:layout_height="wrap_content"
+                               android:layout_gravity="center"
+                               android:gravity="center"
+                               android:text="@string/attempted"
+                               android:textColor="@color/black" />
+
+                           <TextView
+                               android:id="@+id/tvAttemptQuestion"
+                               style="@style/primary14Normal"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_gravity="center"
+                               android:gravity="center"
+                               tools:text="0"
+                               android:textColor="@color/black" />
+
+                       </LinearLayout>
+
+                       <androidx.legacy.widget.Space
+                           android:layout_width="@dimen/dp_10"
+                           android:layout_height="@dimen/dp_0" />
+
+                       <LinearLayout
+                           android:layout_width="@dimen/dp_100"
+                           android:layout_height="wrap_content"
+                           android:background="@drawable/linear_layout_shape"
+                           android:orientation="vertical">
+
+                           <TextView
+                               style="@style/primary14Normal"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_gravity="center"
+                               android:gravity="center"
+                               android:text="@string/total"
+                               android:textColor="@color/black" />
+
+                           <TextView
+                               android:id="@+id/tvTotalQuestion"
+                               style="@style/primary14Normal"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_gravity="center"
+                               android:gravity="center"
+                               tools:text="0"
+                               android:textColor="@color/black" />
+                       </LinearLayout>
+
+                   </LinearLayout>
+
+               </RelativeLayout>
+
+
+               <TextView
+                   style="@style/primary20Bold"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="start"
+                   android:layout_marginStart="@dimen/dp_10"
+                   android:layout_marginTop="-19dp"
+                   android:layout_marginEnd="@dimen/dp_10"
+                   android:background="@drawable/text_view_selector"
+                   android:gravity="center"
+                   android:paddingVertical="@dimen/dp_5"
+                   android:text="@{currentQuizData.question}"
+                   android:textColor="@color/black" />
+
+
+
+               <TextView
+                   style="@style/primary20Bold"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="start"
+                   android:layout_marginStart="@dimen/dp_20"
+                   android:layout_marginTop="@dimen/dp_20"
+                   android:background="@drawable/text_view_selector"
+                   android:gravity="center"
+                   android:paddingVertical="@dimen/dp_5"
+                   android:text="@string/choose_your_option"
+                   android:textColor="@color/black" />
+
+               <TextView
+                   android:id="@+id/tvQuizOptionA"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="@dimen/dp_20"
+                   android:layout_marginTop="@dimen/dp_10"
+                   android:layout_marginEnd="@dimen/dp_20"
+                   android:background="@drawable/text_view_option_outline_shape"
+                   android:ellipsize="none"
+                   android:gravity="start"
+                   android:padding="@dimen/dp_20"
+                   android:paddingVertical="@dimen/dp_5"
+                   android:singleLine="false"
+                   android:text="@{currentQuizData.option_a}"
+                   android:textSize="15sp"
+                   tools:text="Option A" />
+
+               <TextView
+                   android:id="@+id/tvQuizOptionB"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="@dimen/dp_20"
+                   android:layout_marginTop="@dimen/dp_20"
+                   android:layout_marginEnd="@dimen/dp_20"
+                   android:background="@drawable/text_view_option_outline_shape"
+                   android:ellipsize="none"
+                   android:gravity="start"
+                   android:padding="@dimen/dp_20"
+                   android:singleLine="false"
+                   android:text="@{currentQuizData.option_b}"
+                   android:textSize="15sp"
+                   tools:text="Option B" />
+
+               <TextView
+                   android:id="@+id/tvQuizOptionC"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="@dimen/dp_20"
+                   android:layout_marginTop="@dimen/dp_20"
+                   android:layout_marginEnd="@dimen/dp_20"
+                   android:background="@drawable/text_view_option_outline_shape"
+                   android:ellipsize="none"
+                   android:gravity="start"
+                   android:padding="@dimen/dp_20"
+                   android:singleLine="false"
+                   android:text="@{currentQuizData.option_c}"
+                   android:textSize="15sp"
+                   tools:text="Option C" />
+
+               <TextView
+                   android:id="@+id/tvQuizOptionD"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="@dimen/dp_20"
+                   android:layout_marginTop="@dimen/dp_20"
+                   android:layout_marginEnd="@dimen/dp_20"
+                   android:background="@drawable/text_view_option_outline_shape"
+                   android:ellipsize="none"
+                   android:gravity="start"
+                   android:padding="@dimen/dp_20"
+                   android:singleLine="false"
+                   android:text="@{currentQuizData.option_d}"
+                   android:textSize="15sp"
+                   tools:text="Option D" />
+
+               <Button
+                   android:id="@+id/btnQuizNext"
+                   style="@style/white20Normal"
+                   android:layout_width="match_parent"
+                   android:backgroundTint="@color/black"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="@dimen/dp_20"
+                   android:layout_marginTop="@dimen/dp_20"
+                   android:layout_marginEnd="@dimen/dp_20"
+                   android:text="@string/next" />
+           </LinearLayout>
+
+           <nl.dionsegijn.konfetti.xml.KonfettiView
+               android:id="@+id/konfettiView"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent" />
+       </FrameLayout>
+   </ScrollView>
+</layout>

@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="animation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="CustomSeekBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:progressDrawable">@drawable/custom_seekbar_progress</item> <!-- Custom progress drawable -->
+    </style>
+
+    <style name="primary14Normal">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="primary16Normal">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="primary20Normal">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="primary22Normal">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="primary25Normal">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="primary30Normal">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="primary16Bold">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="primary20Bold">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="primary22Bold">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="primary25Bold">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="primary30Bold">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="primary16Light">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="primary20Light">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="primary22Light">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="primary25Light">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="primary30Light">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="primary16Medium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="primary20Medium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="primary22Medium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="primary25Medium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="primary30Medium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="primary16Regular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="primary20Regular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="primary22Regular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="primary25Regular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="primary30Regular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--    Secondary Color Font Starts Here-->
+    <style name="secondary16Normal">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="secondary20Normal">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="secondary22Normal">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="secondary25Normal">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="secondary30Normal">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="secondary16Bold">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="secondary20Bold">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="secondary22Bold">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="secondary25Bold">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="secondary30Bold">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="secondary16Light">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="secondary20Light">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="secondary22Light">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="secondary25Light">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="secondary30Light">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="secondary16Medium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="secondary20Medium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="secondary22Medium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="secondary25Medium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="secondary30Medium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="secondary16Regular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="secondary20Regular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="secondary22Regular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="secondary25Regular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="secondary30Regular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--    Secondary Font Styles Ends Here-->
+
+    <!--    White Font Styles Starts Here-->
+    <style name="white16Normal">
+        <item name="android:fontFamily">@font/poppins_thin</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="white20Normal">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="white22Normal">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="white25Normal">
+        <item name="android:fontFamily">@font/poppins_thin</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="white30Normal">
+        <item name="android:fontFamily">@font/poppins_thin</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="white16Bold">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="white20Bold">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="white22Bold">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="white25Bold">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="white30Bold">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="white10Light">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="white12Light">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="white14Light">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="white16Light">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="white20Light">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="white22Light">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="white25Light">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="white30Light">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="white16Medium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="white20Medium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="white22Medium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="white25Medium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="white30Medium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="white16Regular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="white20Regular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="white22Regular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="white25Regular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="white30Regular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--    White Font Styles Ends Here-->
+
+    <!--    Black Font Styles Starts Here-->
+
+    <style name="black16Normal">
+        <item name="android:fontFamily">@font/poppins_thin</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="black20Normal">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="black22Normal">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="black25Normal">
+        <item name="android:fontFamily">@font/poppins_thin</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="black30Normal">
+        <item name="android:fontFamily">@font/poppins_thin</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="black16Bold">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="black20Bold">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="black22Bold">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="black25Bold">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="black30Bold">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="black16Light">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="black20Light">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="black22Light">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="black25Light">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="black30Light">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="black16Medium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="black20Medium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="black22Medium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="black25Medium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="black30Medium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="black16Regular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="black20Regular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="black22Regular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="black25Regular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="black30Regular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

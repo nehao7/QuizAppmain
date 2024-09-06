@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list"
+    android:name="com.o7solutions.TriviaQuiz.QuizRecycler"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/dp_16"
+    android:layout_marginRight="@dimen/dp_16"
+    app:layoutManager="LinearLayoutManager"
+    app:stackFromEnd="true"
+    tools:context="com.daniel.quizbibz.fragments.quiz.AllQuizFragment"
+    tools:listitem="@layout/quiz_list_item_adapter">
+
+
+</androidx.recyclerview.widget.RecyclerView>
+
